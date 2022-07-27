@@ -1,5 +1,6 @@
 module github.com/hashicorp/terraform
 
+
 require (
 	cloud.google.com/go/storage v1.10.0
 	github.com/Azure/azure-sdk-for-go v59.2.0+incompatible
@@ -194,7 +195,6 @@ require (
 )
 
 replace google.golang.org/grpc v1.36.0 => google.golang.org/grpc v1.27.1
-
 replace github.com/golang/mock v1.5.0 => github.com/golang/mock v1.4.4
 
 // github.com/dgrijalva/jwt-go is no longer maintained but is an indirect
